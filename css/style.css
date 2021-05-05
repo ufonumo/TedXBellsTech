@@ -31,27 +31,35 @@ a.nav-link:last-child {
     margin-top: 0;
 } */
 
+section.home {
+  margin-top: 70px;
+}
+
 button.btn.btn_tedx {
     background: #fff;
     margin-top: -6px;
+} 
+
+.seat_btn {
+  margin-top: 1px !important;
 }
 
 .info .info_info_content{
-    border-radius: 6px;
-    background-color: #ffffff;
-    padding: 25px 60px;
-    position: relative;
-    z-index: 1000;
-    margin-top: -40px;
-    margin-bottom: 50px;
-    box-shadow: 0 0 16px rgb(0 0 0 / 8%);
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 25px 60px;
+  position: relative;
+  z-index: 1000;
+  margin-top: -40px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 16px rgb(0 0 0 / 8%);
     
 }
 
 .info_item{
-    display: flex;
-    flex-direction: column;
-    border-right: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid red;
 }
 
 .no_border{
@@ -184,7 +192,7 @@ button.btn.btn_tedx {
     }
 
     .seat {
-        padding: 2rem 1rem;
+        padding: 2rem .3rem;
     }
 
     .speaker_carousel {
@@ -206,6 +214,10 @@ button.btn.btn_tedx {
 
     .about {
         margin-top: 80px;
+    }
+
+    button.btn.btn_tedx {
+      padding: .5rem .3rem;
     }
   }
 
