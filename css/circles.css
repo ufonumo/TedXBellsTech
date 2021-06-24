@@ -243,7 +243,7 @@
 
 @media (max-width: 360px) {
 	.container-fluid #map{
-		width: 315px !important;
+		width: 360px !important;
 	}
 }
 
