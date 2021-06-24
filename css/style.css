@@ -46,6 +46,11 @@ button.btn.btn_tedx {
     padding: .6rem 2rem;
 } 
 
+button.btn.btn_tedx.contact_btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+
 button.btn.btn_tedx:hover{
     color: #000;
     background-color: #fff;
