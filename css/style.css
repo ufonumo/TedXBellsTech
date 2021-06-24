@@ -31,16 +31,10 @@ a.navbar-brand img{
     border: none;
 }
 
-/* a.nav-link {
-    margin-top: 10px !important;
-}
-
-a.nav-link:last-child {
-    margin-top: 0;
-} */
 
 section.home {
   margin-top: 70px;
+  overflow-x: hidden;
 }
 
 button.btn.btn_tedx {
@@ -206,6 +200,12 @@ button.btn.btn_tedx.seat_btn:hover{
 
 .gallery img{
     width: 100%;
+    margin: 10px 0;
+    
+    border-top-left-radius: 35px;
+    /* border-top-right-radius: 30px; */
+    border-bottom-right-radius: 35px;
+    /* border-bottom-left-radius: 30px; */
 }
 
 .portfolio-filter .filter-link {
@@ -287,16 +287,24 @@ button.btn.btn_tedx.seat_btn:hover{
 /* footer */
 .footer{
     background-color: lightgrey;
-    padding: 25px 0;
+    padding: 25px 10px;
     margin-top: 150px;
 }
-
 
   @media (max-width: 768px) {
 
     .info_top{
         border-top: 2px solid #E62B1E;
         padding: 1.4rem 0;
+    }
+
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        text-align: center;
+    }
+
+    .footer_content{
+        display: flex;
+        flex-direction: column;
     }
 
     .info_item {
@@ -332,10 +340,12 @@ button.btn.btn_tedx.seat_btn:hover{
 
     .about {
         margin-top: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     button.btn.btn_tedx {
-      padding: .5rem .3rem;
+      padding: .5rem 3rem;
     }
   }
 
