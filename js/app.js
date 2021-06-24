@@ -15,3 +15,5 @@ window.EBWidgets.createWidget({
   modalTriggerElementId: 'eventbrite-widget-modal-trigger-153592602609',
   onOrderComplete: exampleCallback
 });
+
+AOS.init();
