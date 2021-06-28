@@ -37,7 +37,7 @@ section.home {
   overflow-x: hidden;
 }
 
-button.btn.btn_tedx {
+.btn.btn_tedx {
     background: #E62B1E;
     margin-top: -6px;
     color: #fff;
@@ -46,7 +46,7 @@ button.btn.btn_tedx {
     padding: .6rem 2rem;
 } 
 
-button.btn.btn_tedx.contact_btn:hover{
+.btn.btn_tedx.contact_btn:hover{
     color: #fff;
     background-color: #000;
 }

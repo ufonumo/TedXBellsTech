@@ -10,9 +10,9 @@ var exampleCallback = function() {
 
 window.EBWidgets.createWidget({
   widgetType: 'checkout',
-  eventId: '153592602609',
+  eventId: '161143238765',
   modal: true,
-  modalTriggerElementId: 'eventbrite-widget-modal-trigger-153592602609',
+  modalTriggerElementId: 'eventbrite-widget-modal-trigger-161143238765',
   onOrderComplete: exampleCallback
 });
 
