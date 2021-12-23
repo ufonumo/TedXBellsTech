@@ -1,5 +1,6 @@
 *{
     font-family: 'DM Sans', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 body{
@@ -8,6 +9,14 @@ body{
 
 nav.navbar.navbar-expand-lg.navbar-light {
     background-color: #2b2525;
+}
+
+li.nav-item {
+    margin-right: 2rem;
+}
+
+a#btn_tedx {
+    padding: 0.6rem 2rem;
 }
 
 a.navbar-brand img{
@@ -105,7 +114,7 @@ button.btn.btn_tedx.seat_btn:hover{
 }
 
 .about_content h4{
-    font-size: 38px;
+    font-size: 30px;
     border-bottom: 2px solid #E62B1E;
     width: max-content;
 }
@@ -151,28 +160,28 @@ button.btn.btn_tedx.seat_btn:hover{
 
 .speak_fig{
     position: relative;
-    bottom: 5.4rem;
-    font-size: 30px;
+    bottom: 4rem;
+    font-size: 16px;
     color: #fff;
     padding: 1.3rem;
     background: linear-gradient(217deg, rgba(10, 10, 10, 0.699), rgba(7, 7, 7, 0.671) 70.71%);
     width: fit-content;
 }
 
-#Onye{
-    bottom: 8.2rem;
-}
-
 .speaker_details {
+    display: none;
     color: transparent;
     position: absolute;
     bottom: 6rem;
-    height: 300px;
+    /* height: 300px; */
     transition: .3s ease-in;
 }
 
 .item img{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.61));
+    height: 350px;
+    width: 310px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .speaker_details:hover{
@@ -297,6 +306,10 @@ button.btn.btn_tedx.seat_btn:hover{
 }
 
   @media (max-width: 768px) {
+
+    .about_content p{
+        text-align: center;
+    }
 
     .info_top{
         border-top: 2px solid #E62B1E;
