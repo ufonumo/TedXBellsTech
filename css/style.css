@@ -160,10 +160,10 @@ button.btn.btn_tedx.seat_btn:hover{
 
 .speak_fig{
     position: relative;
-    bottom: 4rem;
+    bottom: 2rem;
     font-size: 16px;
     color: #fff;
-    padding: 1.3rem;
+    padding: .3rem;
     background: linear-gradient(217deg, rgba(10, 10, 10, 0.699), rgba(7, 7, 7, 0.671) 70.71%);
     width: fit-content;
 }
@@ -178,8 +178,8 @@ button.btn.btn_tedx.seat_btn:hover{
 }
 
 .item img{
-    height: 350px;
-    width: 310px;
+    height: 400px;
+    width: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -215,11 +215,8 @@ button.btn.btn_tedx.seat_btn:hover{
 .gallery img{
     width: 100%;
     margin: 10px 0;
-    
     border-top-left-radius: 35px;
-    /* border-top-right-radius: 30px; */
     border-bottom-right-radius: 35px;
-    /* border-bottom-left-radius: 30px; */
 }
 
 .portfolio-filter .filter-link {
@@ -370,11 +367,11 @@ button.btn.btn_tedx.seat_btn:hover{
   @media (max-width: 625px) {
     .speak_fig{
         font-size: 16px;
-        bottom: 4.2rem;
+        bottom: 2rem;
     }
 
     #Onye {
-        bottom: 4.1rem;
+        bottom: 2.1rem;
     }
 
     .speaker_details {
